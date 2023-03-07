@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "myChatApp",
+    "slug": "myChatApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashicon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#61ADFF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.johnwata.myChatApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d1d1bbf2-cca2-436e-9b88-ab070b4a7166"
+      }
+    }
+  }
+}
