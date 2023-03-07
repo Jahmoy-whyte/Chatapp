@@ -52,7 +52,11 @@ export const useMessagesfunction = (chatdata) => {
         const messagesarr = [];
 
         if (querySnapshot.size === 0) {
-          setdata((prev) => ({ ...prev, loading: false }));
+          setdata((prev) => ({
+            ...prev,
+            loading: false,
+            loadingsendmsg: false,
+          }));
           //  console.log("emptyfwfefwfwfwf");
           return;
         }
